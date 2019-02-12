@@ -1,0 +1,38 @@
+{
+  "pages": [
+  "pages/first/first",
+  "pages/forth/forth",
+  "pages/second/second",
+  "pages/jiaruqunzu/jiaruqunzu",
+  "pages/guanliqunzu/guanliqunzu",
+  "pages/lianxikefu/lianxikefu",
+  "pages/third/third"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "今日干啥",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/first/first",
+        "text": "今日"
+      },
+      {
+        "pagePath": "pages/second/second",
+        "text": "通知"
+      },
+      {
+        "pagePath": "pages/third/third",
+        "text": "日程表"
+      },
+      {
+        "pagePath": "pages/forth/forth",
+        "text": "我的"
+      }
+    ]
+  }
+}

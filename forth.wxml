@@ -1,0 +1,42 @@
+ <!-- 用户 openid -->
+  <view class="userinfo">
+    <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+    ></button>
+    <view>
+      <button class="userinfo-nickname" bindtap="onGetOpenid">点击登录</button>
+    </view>
+  </view>
+<view class="inputView">
+
+
+<label class="loginLab">搜索:</label>
+<input class="inputText" placeholder="请输入搜索群组名称" bindinput="phoneInput" />
+
+</view>
+<button class="ss" palin="false">
+点击搜索
+</button>
+
+<view class="uploader">
+    <navigator url="../jiaruqunzu/jiaruqunzu" open-type="navigate" class="uploader-text">
+      <text>我加入的群组</text>
+    </navigator>
+  </view>
+
+  <view class="uploader">
+    <navigator url="../guanliqunzu/guanliqunzu" open-type="navigate" class="uploader-text">
+      <text>我管理的群组</text>
+    </navigator>
+  </view>
+  
+  
+  
+  <view class="uploader">
+    <navigator url="../lianxikefu/lianxikefu" open-type="navigate" class="uploader-text">
+      <text>联系客服</text>
+    </navigator>
+  </view>
